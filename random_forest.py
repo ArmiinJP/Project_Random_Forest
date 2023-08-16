@@ -2,7 +2,7 @@ from collections import Counter
 
 import numpy as np
 
-from .decision_tree.py import DecisionTree
+from decision_tree import DecisionTree
 
 
 def bootstrap_sample(X, y):
